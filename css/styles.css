@@ -298,6 +298,7 @@ color: #2E2F42;
 }
 
 .name-team{
+  border-radius:0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: #FFFFFF
 }
@@ -314,13 +315,14 @@ color: #434455;
 }
 
 .information{
-  padding: 32px 16px;
+  padding: 32px 0;
    border-radius: 0px 0px 4px 4px;
 }
 
 .personal{
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .personal-link{
@@ -358,7 +360,7 @@ color: #2E2F42;
 .customers-title{
   display: block;
   text-align: center;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .customers-list{
@@ -385,7 +387,7 @@ color: #2E2F42;
   fill:currentColor
 }
 
-.customers-list{padding-top: 72px;
+.customers-list{padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -471,14 +473,14 @@ color: #2E2F42;
   row-gap: 48px;
 }
 
-.general-link{display: block;}
+.general{display: block;}
 
-.general-link{
+.general{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.general-link:hover,
-.general-link:focus{ 
+.general,
+.general{ 
   box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
