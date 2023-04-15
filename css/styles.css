@@ -525,7 +525,16 @@ letter-spacing: 0.02em;
 width: 264px;
 }
 
-.footer-wrapper{display: flex;}
+.footer-wrapper{display: flex;
+  align-items: baseline;
+ }
+
+
+  .footer-logo{
+    margin-right: 120px;
+
+  }
+
 
 .footer-title{
 font-weight: 500;
@@ -558,6 +567,6 @@ padding-bottom: 16px;
     fill: #FFFFFF;
   }
 
-  .footer-media{
+  /* .footer-media{
     margin-left: 120px;
-  }
+  } */
