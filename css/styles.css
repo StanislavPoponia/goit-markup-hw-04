@@ -48,6 +48,7 @@ img{ display: block;}
 .header{
   border-bottom: 1px solid #e7e9fc;
   background: #FFFFFF;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav{
@@ -468,6 +469,18 @@ color: #2E2F42;
   margin-top: 0;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.general-link{display: block;}
+
+.general-link{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.general-link:hover,
+.general-link:focus{ 
+  box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 
 .flex-element{ width: calc((100% - 48px) / 3); }
