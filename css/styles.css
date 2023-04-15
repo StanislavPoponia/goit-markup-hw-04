@@ -527,6 +527,7 @@ width: 264px;
 
 .footer-wrapper{display: flex;
   align-items: baseline;
+  margin-right: 120px;
  }
 
 
