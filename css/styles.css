@@ -1,7 +1,6 @@
 :root
 
 
-h2,
 h3,
 h4,
 h5,
@@ -250,7 +249,7 @@ border-radius: 4px;
 }
 
 .works{
-  margin-top: 0;
+  margin: 0;
   padding-bottom: 72px;
  font-weight: 700;
 font-size: 36px;
@@ -276,7 +275,7 @@ color: #2E2F42;
 }
 
 .our-team {
-  margin-top: 0;
+  margin: 0;
   padding-bottom: 72px;
 font-weight: 700;
 font-size: 36px;
@@ -349,6 +348,10 @@ border-radius: 50%;
   background: #F4F4FD;
 }
 
+.customers{
+  padding: 120px 0;
+}
+
 
 .customers-title{
   font-weight: 700;
@@ -358,6 +361,7 @@ color: #2E2F42;
 }
 
 .customers-title{
+  margin: 0;
   display: block;
   text-align: center;
   margin-bottom: 72px;
@@ -372,6 +376,7 @@ color: #2E2F42;
 .customers-link{width: 168px;
   height: 88px;
   border: 1px solid #8E8F99; 
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -385,10 +390,6 @@ color: #2E2F42;
 
 .cust-svg{
   fill:currentColor
-}
-
-.customers-list{padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 /* menu-button portfolio */
