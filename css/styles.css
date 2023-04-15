@@ -527,14 +527,8 @@ width: 264px;
 
 .footer-wrapper{display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  gap: 120px;
  }
-
-
-  .footer-logo{
-    margin-right: 120px;
-
-  }
 
 
 .footer-title{
