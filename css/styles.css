@@ -526,8 +526,9 @@ color: #F4F4FD;
 }
 
 .footer-wrapper{display: flex;
-  align-items: baseline;
   gap: 120px;
+  align-items: baseline;
+  
  }
 
 
