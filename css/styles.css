@@ -526,11 +526,14 @@ color: #F4F4FD;
 }
 
 .footer-wrapper{display: flex;
-  gap: 120px;
-  align-items: baseline;
-  
+ align-items: baseline;
  }
 
+ .footer-logo{
+  margin-right: 120px
+ }
+
+ 
 
 .footer-title{
 font-weight: 500;
