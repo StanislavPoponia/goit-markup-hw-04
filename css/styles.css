@@ -53,6 +53,7 @@ img{ display: block;}
 .header-nav{
   display: flex;
   align-items: center;
+  padding: 15px 15px;
 }
 
 .studio { 
@@ -60,8 +61,6 @@ img{ display: block;}
 }
 
 .logo {
-  margin-top: 24px;
-  margin-bottom: 24px;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -501,11 +500,11 @@ color: #2E2F42;
 /* footer */
 
 .logo-footer{
-  margin: 0;
+  margin-bottom: 16px;
 }
 
 .logo{display: inline-block;
-margin-bottom: 16px;}
+}
 
 .studio-footer {
   color: #F4F4FD;;
